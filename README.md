@@ -1,0 +1,1 @@
+# Numerical-Solution-to-the-Optimal-Portfolio-Selection-Problem-for-Power-Utility-Function
