@@ -1,7 +1,15 @@
-This repository contains the code and pdf reference for the "Numerical Solution to the Optimal Portfolio Selection Problem for Power Utility Function."
+# Numerical Solution to the Optimal Portfolio Selection Problem for Power Utility Function
 
-An investor is interested in maximizing her terminal wealth subject to utility constraints. The algorithm used employs [maximal use of central differences](https://www.jstor.org/stable/40233269), meaning that the algorithm will choose central differencing as long as its use does not violate the positive coefficient criteria. Otherwise, it would choose between forward or backward differencing, depending on whichever satisfy the positive coefficient criteria.
+This repository contains the code and PDF reference for solving the optimal portfolio selection problem using a power utility function.
 
-* [A short PDF](https://github.com/kenrickraymond/Numerical-Solution-to-the-Optimal-Portfolio-Selection-Problem-for-Power-Utility-Function/blob/main/Numerical%20Solution%20to%20the%20Optimal%20Portfolio%20Selection%20Problem%20for%20Power%20Utility%20Function.pdf) explaining the methodology.
+## Problem Overview
+An investor aims to maximize her terminal wealth subject to utility constraints. The solution involves an algorithm that utilizes **[maximal central differencing](https://www.jstor.org/stable/40233269)**. The algorithm prefers central differencing as long as it satisfies the positive coefficient criteria. If this is not possible, it will select either forward or backward differencing based on which method meets the criteria.
 
-* [Implementation Code](https://github.com/kenrickraymond/Numerical-Solution-to-the-Optimal-Portfolio-Selection-Problem-for-Power-Utility-Function/blob/main/Numerical%20Solution%20to%20the%20Optimal%20Portfolio%20Selection%20Problem%20for%20Power%20Utility%20Function.ipynb)
+## Methodology
+The approach is based on maximizing central differencing within the constraints of the algorithm. For more details on the methodology, refer to the linked PDF below.
+
+## Resources
+
+- [Methodology PDF](https://github.com/kenrickraymond/Numerical-Solution-to-the-Optimal-Portfolio-Selection-Problem-for-Power-Utility-Function/blob/main/Numerical%20Solution%20to%20the%20Optimal%20Portfolio%20Selection%20Problem%20for%20Power%20Utility%20Function.pdf): A brief explanation of the methodology used in the algorithm.
+  
+- [Implementation Code](https://github.com/kenrickraymond/Numerical-Solution-to-the-Optimal-Portfolio-Selection-Problem-for-Power-Utility-Function/blob/main/Numerical%20Solution%20to%20the%20Optimal%20Portfolio%20Selection%20Problem%20for%20Power%20Utility%20Function.ipynb): The Python code used to implement the solution to the portfolio selection problem.
